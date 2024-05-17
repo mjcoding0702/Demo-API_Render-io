@@ -17,7 +17,7 @@ const pool = new Pool({
     rejectUnauthorized: false,
   },
 });
-
+// This is to test my commit username
 async function getPostgresVersion() {
   const client = await pool.connect();
   try {
